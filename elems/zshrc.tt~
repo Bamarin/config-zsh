@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 # ┌──────────────────────────────────────────────────── Global configuration ──┐
-export TERM='xterm-256color'
+export TERM='st'
 export ZSH_ROOT_DIR="${HOME}/.zsh"
 export ZSH_PLUGINS_DIR="${ZSH_ROOT_DIR}/plugins"
 export ZSH_PLUGINS_CONFIGS_DIR="${ZSH_PLUGINS_DIR}/configs"
