@@ -16,6 +16,7 @@ export ZGEN_DIR="${ZSH_PLUGINS_DIR}/repos"
 export ZGEN_INIT="${ZSH_PLUGINS_DIR}/init.zsh"
 source /etc/profile
 export FIZZY_DIR=~/.fizzy
+export HISTCONTROL=ignorespace
 
 # ────────────────────────────────────────────────────── Zstyles for plugins ──┤
 zstyle ':editor' dot-expansion 'yes'
